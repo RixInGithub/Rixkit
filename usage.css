@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Rixkit WOFF";
+  src: url("rix.woff") format("woff");
+}
+
+span[class*="-rixkit-"]:before {
+	display: inline-block;
+  font-family: "Rixkit WOFF";
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span.-rixkit-rawr:before {
+  content: "\0041";
+}
+
+span.-rixkit-rawr-mirror:before {
+  content: "\0042";
+}

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Rixkit WOFF";
-  src: url("rix.woff") format("woff");
+  src: url("rixkit.woff") format("woff");
 }
 
 span[class*="-rixkit-"]:before {

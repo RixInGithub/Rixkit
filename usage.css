@@ -4,7 +4,7 @@
 }
 
 span[class*="-rixkit-"]:before {
-	display: inline-block;
+  display: inline-block;
   font-family: "Rixkit WOFF";
   line-height: 1;
   -webkit-font-smoothing: antialiased;
